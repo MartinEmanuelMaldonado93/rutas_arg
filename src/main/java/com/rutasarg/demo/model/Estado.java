@@ -14,7 +14,7 @@ public class Estado {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idEstado;
     private String tipoEstado;
-    private Long observacion;
-    private LocalDateTime fecheEntrega;
+    private String observacion;
+    private LocalDateTime fechaEntrega;
 
 }

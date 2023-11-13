@@ -13,7 +13,7 @@ public class Remitente {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idRemitente;
     private String nombreTienda;
-    private Long direccion;
+    private String direccion;
     private String codigoPostal;
     private String localidad;
     private String telefono;
