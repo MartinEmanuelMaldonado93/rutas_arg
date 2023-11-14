@@ -10,11 +10,13 @@ import java.time.LocalDateTime;
 @Entity(name = "estado")
 public class Estado {
 
+    //FIXME ver de hacer un enum
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idEstado;
     private String tipoEstado;
-    private String observacion;
-    private LocalDateTime fechaEntrega;
+    private String observacion; //FIXME este atributo puede estar en dirección y en paquete
+    private LocalDateTime fechaEntrega; //FIXME ver donde agregar
 
 }

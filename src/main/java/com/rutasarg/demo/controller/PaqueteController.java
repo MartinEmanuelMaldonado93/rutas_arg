@@ -1,4 +1,4 @@
 package com.rutasarg.demo.controller;
 
-public class Controller {
+public class PaqueteController {
 }
