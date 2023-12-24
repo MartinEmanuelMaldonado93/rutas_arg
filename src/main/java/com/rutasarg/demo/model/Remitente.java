@@ -7,7 +7,10 @@ import jakarta.persistence.*;
 @Getter
 @Setter
 @Entity(name = "remitente")
-public class Remitente {
+public class Remitente { // ver de refactorizar a Tienda
+
+    // Tienda -> pensarlo como una solución de listado de tiendas para ruteos de recolección
+    // ver si es factible
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

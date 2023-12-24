@@ -1,4 +1,4 @@
-package com.rutasarg.demo.model;
+package com.rutasarg.demo.model.old;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -8,6 +8,7 @@ import lombok.Setter;
 @Entity(name = "destinatario")
 public class Destinatario {
 
+    /*
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idDestinatario;
@@ -16,5 +17,7 @@ public class Destinatario {
     private String documento;
     private String telefono;
     private String email;
+
+     */
 
 }

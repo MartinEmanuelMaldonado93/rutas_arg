@@ -12,9 +12,14 @@ public class Chofer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idChofer;
+
     private String nombre;
     private String apellido;
     private int edad;
     private String telefono;
+    private String modeloMarcaAuto;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    private Equipo equipo;
 
 }

@@ -1,16 +1,14 @@
-package com.rutasarg.demo.model;
+package com.rutasarg.demo.model.old;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
-
 @Getter
 @Setter
 @Entity(name = "direccion")
 public class Direccion {
-    
+    /*
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idDireccion;
@@ -23,5 +21,7 @@ public class Direccion {
     private String localidad;
     @OneToMany(cascade = CascadeType.ALL)
     private List<Paquete> paquete;
+
+     */
     
 }
