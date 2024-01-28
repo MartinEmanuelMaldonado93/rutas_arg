@@ -1,6 +1,7 @@
 {
   "visitas": [
     {
+      "fechaLote": "LocalDate.now()", /*se va a pedir una fecha para saber cuando sera el recorrido*/
       "tipoVisita": "Tipo de visita",
       "direccion": "direccion visita",
       "provincia": "", /*se vincula con la direccion */

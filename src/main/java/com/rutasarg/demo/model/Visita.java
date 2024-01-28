@@ -17,6 +17,7 @@ public class Visita {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idVisita;
 
+    private LocalDate fechaLote;
     private String tipoVisita; // ver de hacer enum o recibir del cliente
     private String direccion;
     private String provincia; //ver si conviene
