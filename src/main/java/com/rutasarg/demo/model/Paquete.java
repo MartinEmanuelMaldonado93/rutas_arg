@@ -16,7 +16,8 @@ public class Paquete {
     private String remitente;
     private String codigo;
     private String destinatario;
-    private String telefonoContacto;
+    private String email;
+    private String telefono;
     private String referencia; // ver que es! lista hace referencia a un id
     private String notaDetalle;
 

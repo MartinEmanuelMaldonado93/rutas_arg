@@ -1,0 +1,29 @@
+{
+  "visitas": [
+    {
+      "tipoVisita": "Tipo de visita",
+      "direccion": "direccion visita",
+      "provincia": "", /*se vincula con la direccion */
+      "localidad": "", /*se vincula con la direccion */
+      "latitud": "latitud",
+      "longitud": "longitud",
+      "codigoPostal": "Código Postal",
+      "ventanaHorariaDesde": "",
+      "ventanaHorariaHasta": "",
+      "horaCambioEstado": "interactua con el chofer",
+      "estado": "Entregado, En Viaje, Visita Reprogramada, Cancelado",
+      "observacion": "interactua con el chofer",
+      "paquetes": [
+        {
+          "remitente": "Nombre Tienda", /*se vincula los dos campos*/
+          "codigo": "CÓDIGO Reserva", /*se vincula los dos campos*/
+          "destinatario": "Persona de contacto",
+          "email": "Correo electrónico de contacto",
+          "telefono": "Teléfono de contacto",
+          "referencia": "Id de referencia",
+          "notaDetalle": "notas"
+        }
+      ]
+    }
+]
+}
