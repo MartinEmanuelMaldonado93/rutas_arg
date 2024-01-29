@@ -14,7 +14,7 @@ public class Remitente { // ver de refactorizar a Tienda
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idRemitente;
+    private Long id;
     private String nombreTienda;
     private String direccion;
     private String codigoPostal;

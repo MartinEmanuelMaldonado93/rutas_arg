@@ -11,7 +11,7 @@ public class Chofer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idChofer;
+    private Long id;
 
     private String nombre;
     private String apellido;

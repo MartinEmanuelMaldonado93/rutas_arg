@@ -4,5 +4,7 @@ import com.rutasarg.demo.model.Recorrido;
 
 public interface RecorridoInterface {
     void guardarRecorrido(Recorrido recorrido);
+    Recorrido verRecorrido(Long idRecorrido);
+
 
 }

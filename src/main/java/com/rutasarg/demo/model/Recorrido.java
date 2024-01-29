@@ -15,7 +15,7 @@ public class Recorrido {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idRecorrido;
+    private Long id;
 
     private LocalDate fecha;
     private LocalTime horaInicio;
